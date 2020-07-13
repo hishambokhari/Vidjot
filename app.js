@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 // About Route
 app.get('/about', (req, res)=> {
-  const title = 'about'
+  const title = 'About'
   res.render('about',{
     title: title
   });
