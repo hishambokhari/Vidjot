@@ -39,6 +39,11 @@ app.get('/about', (req, res)=> {
   });
 });
 
+// Add Idea form
+app.get('/ideas/add', (req, res)=> {
+  res.render('ideas/add');
+});
+
 const port = 5000;
 
 app.listen(port, () => {
